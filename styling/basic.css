@@ -1,0 +1,42 @@
+.nav-item{
+    margin: 0px 20px;
+}
+.nav-item:hover{
+    border-bottom: 2px solid black;
+}
+.navbar-nav{
+    background: #ede6f4;
+}
+.active{
+    cursor: default;
+    background: #f8f9fa;
+}
+.active:hover{
+    border-bottom: none;
+}
+
+.list-unstyled>li>a{
+    color: black;
+}
+/* sp=full background */
+.sp{
+    background: #ede6f4;
+}
+
+.carousel-caption>h5,.carousel-caption>p{
+    color: white;
+}
+
+/* pdt=single product button */
+.pdt{
+    width: 15vw;
+    min-width: 150px;
+}
+.pdt:hover{
+    filter:  contrast(150%);
+    font-size: larger;
+}
+/* pllist = container of all product */
+.pllist{
+    min-width: 90vw;
+}
